@@ -69,7 +69,7 @@ Router.get('/bestproducts',(req,res)=>{
     JOIN penjual pe
     ON t.penjualid = pe.id
     GROUP BY t.productid
-    ORDER BY COUNT(*)
+    ORDER BY COUNT(*) DESC
     LIMIT 6;`
     db.query(sql,(err,results)=>{
         if(err){ return res.status(500).send(err) }
