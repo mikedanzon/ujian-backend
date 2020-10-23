@@ -11,3 +11,5 @@ API JUMLAH USER BUKAN PENJUAL : http://localhost:5050/report/usernotseller
 <br><br>
 --- Soal 3 ---<br>
 API BEST 6 PRODUCTS : http://localhost:5050/report/bestproducts
+<br><br>
+TERIMA KASIH
